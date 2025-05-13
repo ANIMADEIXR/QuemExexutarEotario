@@ -16,7 +16,7 @@ getgenv().KeyInput = ""
 local WhiteList = {
 	"Franciscogames438",
 	"TOM360584",
-  "Vacalebrenj",
+        "Vacalebrenj",
 	"AliceVitoriaMig",
 }
 
@@ -46,7 +46,7 @@ local function executarScript()
 	OrionLib:Destroy()
 	wait(0.3)
 	-- Adicione o seu script aqui
-	print("bote seu script aqui")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ANIMADEIXR/SHSH/refs/heads/main/Shub"))()
 end
 
 Tab:AddButton({
